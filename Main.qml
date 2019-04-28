@@ -28,14 +28,12 @@ Pane{
     height: config.ScreenHeight
     width: config.ScreenWidth
     padding: config.ScreenPadding || root.padding
-
     LayoutMirroring.enabled: config.ForceRightToLeft == "true" ? true : Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
-
     palette.button: "transparent"
-    palette.highlight: config.ThemeColor
-    palette.text: config.ThemeColor
-    palette.buttonText: config.ThemeColor
+    palette.highlight: "white"
+    palette.text: "darkgray"
+    palette.buttonText: "white"
     palette.window: "#000000"
     font.family: config.Font
     font.pointSize: config.FontSize !== "" ? config.FontSize : parseInt(height / 80)

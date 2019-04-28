@@ -1,14 +1,16 @@
 [SddmGreeterTheme]
-Name=wgentoo-black
-Description=Awesome sddm theme for Gentoo Linux
+Name=WSPLASH
+Description=SDDM Theme for Gentoo Linux
 Author=wuseman
+Copyright=Copyright (C) 2019 wuseman
 License=GPL-3.0-or-later
 Type=sddm-theme
-Version=1.0
-Website=https://github.com/wuseman/WGENTOO-BLACK
-Screenshot=preview.png
+Version=1.1
+Website=https://github.com/wuseman/WSPLASH
+Screenshot=Preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=wuseman@nr1.nu
-Theme-Id=wgentoo-black
+Theme-Id=WSPLASH
+Theme-API=1.0
